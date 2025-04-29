@@ -2,7 +2,7 @@
 
 # Emotion Recognition CNN with PyTorch
 
-<img src="images/results.png" width="800" />
+<img src="images/result.png" width="800" />
 
 </center>
 
