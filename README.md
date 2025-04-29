@@ -1,4 +1,10 @@
+<center>
+
 # Emotion Recognition CNN with PyTorch
+
+<img src="images/results.png" width="800" />
+
+</center>
 
 ## Project Goal
 
@@ -100,12 +106,6 @@ Below are the plots showing the training and validation loss curves as well as a
 The confusion matrix visualizes the model's performance on the validation dataset, showing how well it predicts each emotion category.
 
 <img src="images/matrix.png" width="600" />
-
-### Evaluation
-
-The evaluation section includes random predictions made by the model on 9 validation images. Here is a sample of the model's predictions alongside the true labels.
-
-<img src="images/results.png" width="800" />
 
 ## Saved Model
 
