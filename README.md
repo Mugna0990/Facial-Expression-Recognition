@@ -14,7 +14,7 @@ This project implements a Convolutional Neural Network (CNN) using PyTorch to re
 
 * **Data Source:** The model is trained and validated on `FER2013` Dataset .
 * **Image Specifications:** Images are grayscale and 48x48 pixels.
-* **Classes:** The model detects the following emotions based on the validation dataset folders:
+* **Classes:** There are 8 labels:
     * angry
     * disgust
     * fear
@@ -27,12 +27,11 @@ This project implements a Convolutional Neural Network (CNN) using PyTorch to re
 
 The following data augmentation techniques are applied to the training dataset to improve model robustness:
 
-* Grayscale conversion (1 channel)
-* Resize to 48×48
 * Random Horizontal Flip
 * Random Affine Transform (±10° rotation, 10% translation)
 * Conversion to Tensor
 * Normalization (mean=0.5, std=0.5)
+* Add Gaussian noise
 
 ## Model Architecture
 
@@ -86,8 +85,7 @@ The model is a custom CNN architecture consisting of:
 
 ### Model Performance
 
-- **Early Stopping Triggered:** Training was stopped early after no improvement in validation loss for 50 epochs.
-- **Best Model Loaded:** The best model, based on the lowest validation loss, was loaded from `best_emotion_recognition_model.pth`.
+- **Early Stopping Triggered:** Training was stopped early after no improvement in validation loss.
 - **Final Validation Loss:** 0.9049
 - **Final Validation Accuracy:** 68.34%
 
