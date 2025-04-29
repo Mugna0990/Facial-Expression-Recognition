@@ -36,7 +36,7 @@ The following data augmentation techniques are applied to the training dataset t
 
 The model is a custom CNN architecture consisting of:
 
-1. **Four Convolutional Blocks:**
+* **Four Convolutional Blocks:**
    - Each block contains: Conv2D layer, BatchNorm2D, ReLU activation, MaxPool2D, and Dropout (p=0.36).
    - Block details:
      - Conv1: 1 input channel → 64 output channels (3×3 kernel)
@@ -44,14 +44,14 @@ The model is a custom CNN architecture consisting of:
      - Conv3: 128 → 256 (3×3 kernel)
      - Conv4: 256 → 256 (3×3 kernel)
 
-2. **Flattening Layer:**
+* **Flattening Layer:**
    - Output shape after Conv4 and pooling: (256, 3, 3) → flattened to 2304 features.
 
-3. **Two Fully Connected Layers:**
+* **Two Fully Connected Layers:**
    - FC1: Linear(2304 → 256) + BatchNorm1d + ReLU + Dropout(0.36)
    - FC2: Linear(256 → 512) + BatchNorm1d + ReLU + Dropout(0.36)
 
-4. **Output Layer:**
+* **Output Layer:**
    - FC3: Linear(512 → 7) for emotion classification (7 classes)
 
 ## Usage
