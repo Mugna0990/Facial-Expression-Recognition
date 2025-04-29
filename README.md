@@ -13,7 +13,7 @@ This project implements a Convolutional Neural Network (CNN) using PyTorch to re
 
 * **Data Source:** The model is trained and validated on `FER2013` Dataset .
 * **Image Specifications:** Images are grayscale and 48x48 pixels.
-* **Classes:** There are 8 labels:
+* **Classes:** 
     * angry
     * disgust
     * fear
