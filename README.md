@@ -1,10 +1,9 @@
-<center>
 
-# Emotion Recognition CNN with PyTorch
+
+#Facial Expression Recognition
 
 <img src="images/result.png" width="800" />
 
-</center>
 
 ## Project Goal
 
