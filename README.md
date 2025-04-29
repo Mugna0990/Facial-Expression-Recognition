@@ -1,6 +1,6 @@
 
 
-#Facial Expression Recognition
+# Facial Expression Recognition
 
 <img src="images/result.png" width="800" />
 
