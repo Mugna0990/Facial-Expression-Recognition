@@ -7,7 +7,7 @@
 
 ## Project Goal
 
-This project implements a Convolutional Neural Network (CNN) using PyTorch to recognizenseven emotion categories from facial images. 
+This project implements a Convolutional Neural Network (CNN) using PyTorch to recognize seven emotion categories from facial images. 
 
 ## Dataset
 
